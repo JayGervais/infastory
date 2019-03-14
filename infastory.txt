@@ -1,0 +1,4 @@
+Host/Server: 162.241.252.143 
+Username: infastor 
+Password: same as cpanel password
+Port: 21

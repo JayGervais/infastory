@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Nunito-Regular';
+	src: url('../fonts/Nunito-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Nunito-Bold';
+	src: url('../fonts/Nunito-Regular.ttf');
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%; /* for firefox */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #848484;
+}
+
+h1 {
+	font-size: 300%;
+    font-weight: 900;
+    margin-top: 0px;
+    color: #408000;
+}
+
+form {
+	text-align: center;
+}
+
+.wrapper {
+	background-image: url("../images/backgrounds/social_login_background2.jpg");
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	min-width: 950px;
+}
+
+.login_box {
+	font-family: 'Nunito', sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 7%;
+	width: 35%;
+	background-color: #ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 10px;
+	padding: 10px;
+	opacity: 0.95;
+}
+
+.login_header {
+	width: 100%;
+	height: 90px;
+	background-color: #e8e8e8;
+	text-align: center;
+}
+
+.login_header h1 {
+	font-family: 'Nunito-Bold', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 250%;
+}
+
+.login_header p {
+	margin-top: 0px;
+}
+
+input[type="submit"] {
+	background-color: #e8e8e8;
+	border-radius: 3px;
+	margin: 5px 0 5px 0; 
+	padding: 5px 10px 5px 10px;
+	font-family: 'Nunito-Bold', sans-serif;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid: #e8e8e8;
+	margin-top: 5px;
+	width: 70%;
+	height: 25px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: #e8e8e8;
+}
+
+#second {
+	display: none;
+}
+
+

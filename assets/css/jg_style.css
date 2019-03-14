@@ -1,0 +1,565 @@
+.postedImage img {	
+	max-width: 100%;
+	display: block;
+	margin: 5px;
+}
+
+.user_details {
+	width: 250px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.user_details_left_right {
+	width: 125px;
+	display: inline-block;
+	position: absolute;
+}
+
+.user_details img {
+	height: 125px;
+	border-radius: 0px;
+	margin-right: 5px;
+}
+
+.post_form {
+	width: 100%;
+}
+
+.post_form textarea {
+	width: 100%;
+	border: 1px solid #408000;
+	height: 60px;
+	border-radius: 0;
+	margin-right: 5px;
+	font-size: 12px;
+	padding: 5px;
+}
+
+textarea:focus {
+	outline: 0;
+}
+
+.post_form input[type="submit"] {
+    background-color: #408000;
+	color: #fff;
+	border: none;
+	padding: 7px 12px;
+	width: 150px;
+}
+
+.post_form input[type="file"] {
+	font-size: 10px;
+}
+
+#message_texarea {
+	border: 1px solid #408000;
+	font-size: 12px;
+}
+
+.post_form input[type="submit"]:active {
+	padding: 5px 4px 4px 5px;
+}
+
+.status_post {
+	width: 96%;
+	font-size: 15px;
+	padding: 20px;
+	min-height: 75px;
+	cursor:pointer;
+}
+
+.post_profile_pic {
+	float: left;
+	margin-right: 7px;
+}
+
+#comment_iframe {
+	max-height: 250px;
+	width: 100%;
+}
+
+.comment_section {
+	padding: 5px 5px 5px 5px;
+	font-family: Nunito-Bold, sans-serif;
+}
+
+.comment_section img {
+	margin: 0 3px 3px 3px;
+	border-radius: 0px;
+}
+
+#comment_form textarea {
+	width: 90%;
+	border: 1px solid #408000;
+	height: 40px;
+	border-radius: 0;
+	margin-right: 5px;
+	font-size: 12px;
+	padding: 5px;
+}
+
+#comment_form input[type="submit"] {
+    background-color: #408000;
+	color: #fff;
+	border: none;
+	padding: 7px 12px;
+	width: 150px;
+}
+
+.newsfeedPostOptions {
+	padding-top: 5px;
+	text-decoration: none;
+	color: #078c00;
+	border: none;
+	font-size: 12px;
+	opacity: 1;
+}
+
+.newsfeedPostOptions iframe {
+	border: 0px;
+	height: 25px;
+	width: 120px;
+	padding-top: 8px;
+}
+
+.comment_like {
+	background-color: #fff
+	border: none;
+	font-size: 12px;
+	color: #078c00;
+	padding: 0px;
+	height: auto;
+	width: auto;
+	margin: 0;
+}
+
+.like_value {
+	display: inline;
+	font-size: 14px;
+}
+
+.delete_button {
+	float: right;
+	border-radius: 0px;
+	right: -15px;
+	position: relative;
+	border: none;
+	color: #5b0202;
+	opacity: 0.5;
+	font-size: 11px;
+	margin-top: -35px;
+}
+
+button.edit_button {
+	float: right;
+	border-radius: 0px;
+	position: relative;
+	border: none;
+	opacity: 0.5;
+	font-size: 13px;
+	margin-top: -55px;
+    margin-right: -2px;
+}
+
+button.edit_button_profile {
+	float: right;
+	border-radius: 0px;
+	position: relative;
+	border: none;
+	opacity: 0.5;
+	font-size: 13px;
+	margin-top: -22px;
+    margin-right: -2px;
+}
+
+#post_body {
+	padding-top: 25px;
+}
+
+.profile_info {
+	padding-right: 10px;
+}
+
+.article li {
+	background-color: #172b3f;
+}
+
+.dropdown_data_window {
+	background-color: #fff;
+	z-index: 9999;
+	border-top: none;
+	width: 100%;
+	overflow: scroll;
+	margin-bottom: 37px;
+    margin-top: -37px;
+}
+
+.loaded_messages {
+	height: 65%;
+	min-height: 300px;
+	max-height: 400px;
+	overflow: scroll;
+}
+
+.loaded_conversations {
+	max-height: 445px;
+	overflow: scroll;
+}
+
+.new_message_btn {
+	background-color: #408000;
+	color: #fff;
+	border: none;
+    padding: 7px 12px;
+}
+
+.user_found_messages {
+	border-bottom: 1px solid #004a59;
+	padding: 8px 8px 10px 8px;
+	opacity: 1;
+}
+
+.user_found_messages:hover {
+	background-color: #00ff6a;
+	opacity: 1;
+}
+
+.user_found_messages img {
+	height: 35px;
+}
+
+.timestamp_smaller {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+.tab-content {
+	padding-top: 20px;
+}
+
+.profile_img img {
+	float: left;
+	max-width: 150px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.profile_info {
+	float: left;
+}
+
+/* Search bar */
+.search {
+	padding-left: 10px;
+}
+
+.search #search_text_input {
+	border: thin solid #E5E5E5;
+	float: left;
+	height: 25px;
+	outline: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.button_holder {
+	background-color: #F1F1F1;
+	border: thin solid #EFEFEF;
+	cursor: pointer;
+	float: left;
+	height: 25px;
+	text-align: center;
+	width: 50px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.button_holder img {
+	margin-top: 0px;
+	width: 20px;
+	padding-bottom: 2px;
+}
+
+.search_results {
+	background-color: #fff;
+	border: 1px solid #DADADA;
+	border-bottom: none;
+	border-top: none;
+	margin-top: 21px;
+}
+
+.search_results_footer {
+	padding: 7px 4px 0px 4px;
+	height: 30px;
+	border: 1px solid #DADADA;
+	border-top: none;
+	background-color: #20AAE5;
+	text-align: center;
+}
+
+.search_results_footer a {
+	color: #fff;
+}
+
+.search_result {
+	padding-top: 10px;
+	height: 100px;
+}
+
+.searchPageFriendButtons {
+	float: right;
+}
+
+.searchPageFriendButtons input[type="submit"] {
+	border: none;
+	padding: 7px 12px;
+	color: #fff;
+}
+
+.searchPageFriendButtons input {
+	border: none;
+	padding: 7px 12px;
+	color: #fff;
+}
+
+.result_profile_pic {
+	float: left;
+	margin-right: 10px;
+}
+
+#small_profile_pic {
+	height: 55px;
+	margin: 1px 12px 0px 2px;
+	float: left;
+}
+
+.liveSearchProfilePic img {
+	height: 50px;
+	margin: 1px 12px 0 2px;
+	float: left;
+}
+
+.liveSearchText {
+	background-color: transparent;
+	color: #004a59;
+	font-size: 14px;
+}
+
+.liveSearchText a {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.profile_info_bottom {
+	margin: 10px 0 0 7px;
+}
+
+#message_textarea {
+	width: 100%;
+	border: 1px solid #408000;
+	height: 60px;
+	border-radius: 0;
+	margin-right: 5px;
+	font-size: 12px;
+	padding: 5px;
+}
+
+#message_submit {
+	background-color: #408000;
+	color: #fff;
+	border: none;
+	padding: 7px 12px;
+	width: 100%;
+}
+
+.message {
+	border-radius: 0px;
+	padding: 5px 10px;
+	display: inline-block;
+	color: white;
+}
+.message#blue {
+	background-color: #336600;
+	float: right;
+	margin-bottom: 5px;
+}
+.message#green {
+	background-color: #0099cc;
+	float: left;
+	margin-bottom: 5px;
+}
+.loaded_messages {
+	height: 65%;
+	min-height: 300px;
+	max-height: 400px;
+	overflow: scroll;
+	margin-bottom: 10px;
+}
+
+.loaded_conversations {
+	max-height: 250px;
+	overflow: scroll;
+}
+
+.user_found_messages {
+	border-bottom: 1px solid #004a59;
+	padding: 8px 8px 10px 8px;
+	opacity: 1;
+}
+
+.user_found_messages:hover {
+	background-color: #00ff6a;
+	opacity: 1;
+}
+
+.user_found_messages img {
+	height: 35px;
+}
+
+.timestamp_smaller {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+#grey {
+	color: #004a59;
+	font-size: 14px;
+}
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.wrapper {
+	background-color: #fff;
+}
+
+.navbar {
+	width: 100%;
+}
+
+.post_container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+input[type="submit"] {
+	border-color: 2px solid #fff;
+}
+
+#conversations {
+	width: 100%;
+}
+
+.posted_by a {
+	color: #000;
+	font-size: 15px;
+}
+
+.username_post {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.name_info_post {
+	float: left;
+
+}
+
+.time_message_post {
+	opacity: 0.7;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.delReq {
+	margin-top: 15px;
+}
+
+.resultDisplayNotification {
+	height: auto;
+	min-height: 53px;
+	color: #1485BD;
+	padding-bottom: 7px;
+}
+
+.resultDisplayNotification img {
+	height: 40px;
+	margin: 1px 12px 0px 2px;
+	float: left;
+}
+
+.resultDisplay {
+	padding: 10px 5px 10px 5px;
+	
+	min-height: 100%;
+	border-bottom: 1px solid;
+}
+
+.resultDisplay a {
+	float: none;
+	height: 70px;
+}
+
+.resultDisplay:hover {
+	background-color: #00ff6a;
+	text-decoration: none;
+}
+
+.notificationsProfilePic {
+	float: left;
+}
+
+#settings_input {
+	width: 100%;
+	border: 2px solid #cecece;
+}
+
+.friend_request_button {
+	float: right;
+}
+
+.friend_request_button button[type="submit"] {
+	border: none;
+}
+
+.profile_description {
+	padding-bottom: 20px;
+}
+
+.btnSendMessage {
+	border: 2px solid #408000;
+	color: #408000;
+}
+
+.message_div {
+	padding-bottom: 25px;
+}
+
+.delete_button_profile {
+	float: right;
+    border-radius: 0px;
+    right: -15px;
+    position: relative;
+    border: none;
+    color: #5b0202;
+    opacity: 0.5;
+    font-size: 11px;
+}
+
+.gallery img {
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.delete-image {
+	float: right;
+	border: none;
+	color: #820000;
+}
