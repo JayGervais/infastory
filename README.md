@@ -1,2 +1,5 @@
 # infastory
-This was a long-term project I started to better understand PHP, MySQL and object oriented programming. This has been a big stepping stone. I invite you to download, modify, and use this to make something beautiful of your own.
+
+PHP/MySQL project by Jay Gervais
+
+This social media website was designed with PHP, MySQL and object oriented programming as a way to explore techniques and improve upon my coding skills. This website includes features such as posting text and images, creating galleries, commenting on posts, searching and adding friends, and more. The start of this project is based on the Udemy Course, 'Build a Social Network from Scratch: JavaScript, PHP + MySQL' by Reece Kenny.
